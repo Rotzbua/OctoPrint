@@ -106,7 +106,7 @@ Cross-origin requests
 =====================
 
 To make use of the OctoPrint API from websites other than the OctoPrint web interface,
-cross-origin resource sharing (`CORS <http://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_) must be enabled.
+cross-origin resource sharing (`CORS <https://en.wikipedia.org/wiki/Cross-origin_resource_sharing>`_) must be enabled.
 This is the case even when the website in question is served from a different port on the same machine and on localhost.
 
 To enable this feature, set the ``allowCrossOrigin`` key of the ``api`` section in ``config.yml`` to ``true`` or

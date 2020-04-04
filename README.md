@@ -9,7 +9,7 @@
 
 
 OctoPrint provides a snappy web interface for controlling consumer 3D printers. It is Free Software
-and released under the [GNU Affero General Public License V3](http://www.gnu.org/licenses/agpl.html).
+and released under the [GNU Affero General Public License V3](https://www.gnu.org/licenses/agpl-3.0.html).
 
 Its website can be found at [octoprint.org](https://octoprint.org/?utm_source=github&utm_medium=readme).
 
@@ -19,18 +19,18 @@ The official IRC channel is [#octoprint on freenode](https://chat.octoprint.org)
 
 The FAQ can be accessed by following [faq.octoprint.org](https://faq.octoprint.org/?utm_source=github&utm_medium=readme).
 
-The documentation is located at [docs.octoprint.org](http://docs.octoprint.org).
+The documentation is located at [docs.octoprint.org](https://docs.octoprint.org).
 
 The official plugin repository can be reached at [plugins.octoprint.org](https://plugins.octoprint.org/?utm_source=github&utm_medium=readme).
 
 **OctoPrint's development wouldn't be possible without the [financial support by its community](https://octoprint.org/support-octoprint/?utm_source=github&utm_medium=readme).
 If you enjoy OctoPrint, please consider becoming a regular supporter!**
 
-![Screenshot](http://i.imgur.com/dF3noFp.png)
+![Screenshot](https://i.imgur.com/dF3noFp.png)
 
 You are currently looking at the source code repository of OctoPrint. If you already installed it
 (e.g. by using the Raspberry Pi targeted distribution [OctoPi](https://github.com/guysoft/OctoPi)) and only
-want to find out how to use it, [the documentation](http://docs.octoprint.org/) and [the public wiki](https://github.com/foosel/OctoPrint/wiki)
+want to find out how to use it, [the documentation](https://docs.octoprint.org/) and [the public wiki](https://github.com/foosel/OctoPrint/wiki)
 might be of more interest for you. You might also want to subscribe to join
 [the community forum at community.octoprint.org](https://community.octoprint.org) where there are other active users who might be
 able to help you with any questions you might have.
@@ -38,7 +38,7 @@ able to help you with any questions you might have.
 ## Contributing
 
 Contributions of all kinds are welcome, not only in the form of code but also with regards to the
-[official documentation](http://docs.octoprint.org/) or [the public wiki](https://github.com/foosel/OctoPrint/wiki), debugging help
+[official documentation](https://docs.octoprint.org/) or [the public wiki](https://github.com/foosel/OctoPrint/wiki), debugging help
 in the [bug tracker](https://github.com/foosel/OctoPrint/issues), support of other users on
 [the community forum at community.octoprint.org](https://community.octoprint.org)
 and also [financially](https://octoprint.org/support-octoprint/?utm_source=github&utm_medium=readme).
@@ -137,7 +137,7 @@ which is located at `~/.octoprint` on Linux, at `%APPDATA%/OctoPrint` on Windows
 at `~/Library/Application Support/OctoPrint` on MacOS.
 
 A comprehensive overview of all available configuration settings can be found
-[in the docs](http://docs.octoprint.org/en/master/configuration/config_yaml.html).
+[in the docs](https://docs.octoprint.org/en/master/configuration/config_yaml.html).
 Please note that the most commonly used configuration settings can also easily
 be edited from OctoPrint's settings dialog.
 

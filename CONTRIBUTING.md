@@ -39,7 +39,7 @@ nothing but ticket management.
   [community forum at community.octoprint.org](https://community.octoprint.org) for
   such support issues.
 - If you are a **developer** that wants to brainstorm a pull request or possible
-  changes to the plugin system, please get in touch on the 
+  changes to the plugin system, please get in touch on the
   [community forum at community.octoprint.org](https://community.octoprint.org/c/development).
 - If you need **support**, have a **question** or some **other reason** that
   doesn't fit any of the above categories, the issue tracker is not the right place.
@@ -49,7 +49,7 @@ No matter what kind of ticket you create, never mix two or more "ticket reasons"
 into one ticket: One ticket per bug, request, brainstorming thread please.
 
 > 👉 **Note**
-> 
+>
 > A bot is in place that monitors new tickets, automatically
 > categorizes them and checks new bug reports for usage of the provided template.
 > That bot will only bother you if you open a ticket that appears to be a bug (no
@@ -71,12 +71,12 @@ following section *completely* and also follow the instructions in the
 1. **Make sure you are at the right location**. This is the bug tracker
    of the official version of OctoPrint, which is the 3D print server and
    corresponding web interface itself.
-   
+
    **OctoPrint doesn't manage your network connection or your webcam nor
-   can it fix your printer not getting detected as a serial interface** - 
-   if you have any kinds of problems with that, get in touch on the 
+   can it fix your printer not getting detected as a serial interface** -
+   if you have any kinds of problems with that, get in touch on the
    [community forum](https://community.octoprint.org).
-   
+
    **This is not the bug tracker of OctoPi**, which is the preconfigured
    Raspberry Pi image including OctoPrint among other things - that one can be found
    [here](https://github.com/guysoft/OctoPi). If you have any kind of specific
@@ -97,7 +97,7 @@ following section *completely* and also follow the instructions in the
    **safe mode**, either by selecting "Restart OctoPrint in safe mode" from
    the "System" menu, or by starting OctoPrint from the command line with
    `octoprint serve --safe`. Then try to reproduce your issue. Find out
-   more about safe mode in the [docs](http://docs.octoprint.org/en/master/features/safemode.html).
+   more about safe mode in the [docs](https://docs.octoprint.org/en/master/features/safemode.html).
 
    You might also want to try the current development version of OctoPrint
    (if you aren't already). Refer to the [FAQ](https://faq.octoprint.org)
@@ -125,17 +125,17 @@ following section *completely* and also follow the instructions in the
    makes it more difficult due to on top of having to figure out the original problem
    there's now also a [red herring](https://en.wikipedia.org/wiki/Red_herring) interfering - so please be
    very diligent here!
-   
+
 If in doubt about any of the above - get in touch on the [community forum](https://community.octoprint.org)
-instead of opening a ticket here. If you are actually running into a bug, we'll figure it out together 
+instead of opening a ticket here. If you are actually running into a bug, we'll figure it out together
 there.
-   
+
 ### What should I include in a bug report?
 
 First of all make sure your use **a descriptive title**. "It doesn't work"
 and similar unspecific complaints are NOT descriptive titles.
 
-**Always use the following template, even if only adding a "me too" to an 
+**Always use the following template, even if only adding a "me too" to an
 existing ticket**:
 
 ```
@@ -152,7 +152,7 @@ or request features within OctoPrint (not OctoPi, not any OctoPrint
 plugins and not unofficial OctoPrint versions).
 
 Do not seek support here ("I need help with ...", "I have a
-question ..."), that belongs on the community forum at 
+question ..."), that belongs on the community forum at
 community.octoprint.org, NOT here.
 
 Mark requests with a "[Request]" prefix in the title please. For bug
@@ -172,7 +172,7 @@ Thank you!
 
 #### What were you doing?
 
-<!-- 
+<!--
 Please be as specific as possible here. The maintainers will need to
 reproduce your issue in order to fix it and that is not possible if they
 don't know what you did to get it to happen in the first place.
@@ -195,7 +195,7 @@ to also include a link to a file with which to reproduce the problem.
 
 #### Did the same happen when running OctoPrint in safe mode?
 
-<!-- 
+<!--
 Test if you can reproduce your problem in safe mode. You can find information
 on how to enable safe mode in the Contribution Guidelines.
 
@@ -287,8 +287,8 @@ See [How to open the Javascript Console in different browsers](https://webmaster
 
 ## Setting up a development environment
 
-See [the corresponding chapter in the documentation](http://docs.octoprint.org/en/master/development/index.html#setting-up-a-development-environment).
-This also includes information on how to run the test suite and how to build 
+See [the corresponding chapter in the documentation](https://docs.octoprint.org/en/master/development/index.html#setting-up-a-development-environment).
+This also includes information on how to run the test suite and how to build
 the documentation.
 
 ## Pull requests
@@ -301,7 +301,7 @@ the documentation.
    the discussion going on how best to solve *this* in OctoPrint's plugin
    system - maybe that's the actual PR you have been waiting for to contribute :)
 2. If you plan to make **any large or otherwise disruptive changes to the
-   code or appearance, please get in touch on the 
+   code or appearance, please get in touch on the
    [forums](https://community.octoprint.org/c/development)** first so
    that we can determine if it's a good time for your specific pull
    request. It might be that we're currently in the process of making
@@ -312,7 +312,7 @@ the documentation.
 3. Create your pull request **from a custom branch** on your end (e.g.
    `dev/myNewFeature`)[1].
 4. Create your pull request **only against the `maintenance` or `devel` branch**:
-     * if it's a bug fix for a bug in the current stable version, an improvement of existing functionality or a 
+     * if it's a bug fix for a bug in the current stable version, an improvement of existing functionality or a
        *small* new feature (e.g. a new hook, a new config flag, ...): `maintenance` branch
      * otherwise: `devel` branch
 5. Create **one pull request per feature/bug fix**.
@@ -333,15 +333,15 @@ the documentation.
        from experiments).
 8. Ensure your changes **pass the existing unit tests**. PRs that break
    those cannot be accepted. You can run the unit tests locally (after
-   [initial development environment setup with "develop" dependencies](http://docs.octoprint.org/en/master/development/index.html#setting-up-a-development-environment)) 
+   [initial development environment setup with "develop" dependencies](https://docs.octoprint.org/en/master/development/index.html#setting-up-a-development-environment))
    by running
-   
+
    ```
    nosetests --with-doctest
    ```
-   
-   in the OctoPrint checkout folder. A [travis build](https://travis-ci.org/foosel/OctoPrint) 
-   is also setup so that if the tests should fail, your PR will be marked 
+
+   in the OctoPrint checkout folder. A [travis build](https://travis-ci.org/foosel/OctoPrint)
+   is also setup so that if the tests should fail, your PR will be marked
    accordingly.
 9. **Test your changes thoroughly**. That also means testing with usage
    scenarios you don't normally use, e.g. if you only use access control, test
@@ -430,7 +430,7 @@ older development branches that are slowly being migrated or deleted.
 
 ## How OctoPrint is versioned
 
-OctoPrint follows the [semantic versioning scheme](http://semver.org/) of **MAJOR.MINOR.PATCH**.
+OctoPrint follows the [semantic versioning scheme](https://semver.org/) of **MAJOR.MINOR.PATCH**.
 
 The **PATCH** version number is the one increasing most often due to OctoPrint's maintenance releases.
 Releases that only change the patch number indicate that they contain bug fixes and small improvements
